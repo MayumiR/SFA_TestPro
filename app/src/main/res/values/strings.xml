@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">SFA</string>
+    <string name="developed_by_rashmi">Developed by Rashmi.</string>
+    <string name="txt_msg">Your Network is Unavailable.Check Your data or Wi-Fi Connection.</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_sa">Sales Management</string>
+    <string name="title_tools">Management Tools</string>
+    <string name="title_logout">Logout</string>
+    <string name="login_et_password_hint">P A S S W O R D</string>
+    <string name="login_et_username_hint">U S E R N A M E</string>
+    <string name="login_btn_sign_in_txt">SIGN IN</string>
+    <!--  Num Value -->
+    <string name="NumVal">SFAORDER</string>
+    <string name="ExpenseNumVal">EXPENCE</string>
+    <string name="newCusVal">NEWCUS</string>
+    <string name="nonprdVal">NONPRD</string>
+
+
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+
+
+    <array name="listView_icons_for_settingd">
+        <item>@drawable/sync</item>
+        <item>@drawable/printer</item>
+        <item>@drawable/reschedule</item>
+        <item>@drawable/database</item>
+        <item>@drawable/salesreps</item>
+        <item>@drawable/route</item>
+    </array>
+
+    <!-- Content Description -->
+
+    <!-- Print Preview Descrption -->
+    <string name="head_comp_name">Company Name</string>
+    <string name="head_address1">Company Address1,</string>
+    <string name="head_address2">Company Address2</string>
+    <string name="head_comp_tele">Telephone</string>
+    <string name="head_comp_website">web site</string>
+    <string name="head_comp_email">email</string>
+    <string name="printheadingline">-------------------------------------------------------------------------------------------------</string>
+    <string name="head_repname">Rep Name</string>
+    <string name="head_cusname">Customer Name</string>
+    <string name="head_sal_remarks">Remarks</string>
+    <string name="head_rep_phone">Phone #</string>
+    <string name="head_sal_date">Order Date</string>
+    <string name="compulsory">Compulsory</string>
+    <string name="trans_summary_total_qty">Total Quantity</string>
+    <string name="trans_summary_net_value">Net Total</string>
+    <string name="trans_summary_previewvalue">0000</string>
+</resources>

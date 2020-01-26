@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0091ea</color>
+    <color name="colorPrimaryDark">#0064b7</color>
+    <color name="colorAccent">#64c1ff</color>
+    <color name="textColor">#4682B4</color>
+    <color name="theme_color">#0091ea</color>
+    <color name="greenColor">#4682B4</color> <!-- 006e17 -->
+    <color name="blueColor">#336699</color>
+    <color name="unselected">#ffffff</color>
+    <color name="accent_pressed">#ffd6a800</color>
+    <color name="half_black">#808080</color>
+    <color name="light_gray">#AFFFFFFF</color>
+    <color name="blue_c">#303f9f</color>
+    <!--<color name="cardviews_colors2">#8a93a0</color>-->
+    <color name="cardviews_colorsN">#2196F3</color>
+    <color name="list_view_diveder">#b5b5b5</color>
+    <color name="menucolor">#F32104</color>
+
+    <color name="material_alert_positive_button">#ff4caf50</color>
+    <color name="material_alert_negative_button">#ffff5252</color>
+    <color name="material_alert_neutral_button">#ff070a08</color>
+</resources>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_below="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:weightSum="1">
+
+                <com.bit.sfa.utils.CustomFont
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:layout_marginRight="100dp"
+                    android:gravity="left"
+                    android:text="Ref No"
+                    android:textSize="18sp" />
+
+                <com.bit.sfa.utils.CustomText
+                    android:id="@+id/_refNo"
+                    android:layout_weight="0.8"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:background="@drawable/edittextstyle"
+                    android:inputType="textPersonName"
+                    android:padding="5dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:weightSum="1">
+
+                <com.bit.sfa.utils.CustomFont
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="100dp"
+                    android:gravity="left"
+                    android:text="Date"
+                    android:textSize="18sp" />
+
+
+                <com.bit.sfa.utils.CustomText
+                    android:id="@+id/_date"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.8"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:background="@drawable/edittextstyle"
+                    android:inputType="textPersonName"
+                    android:padding="5dp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:weightSum="1">
+
+                <com.bit.sfa.utils.CustomFont
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="100dp"
+                    android:gravity="left"
+                    android:text="Remark"
+                    android:textSize="18sp"  />
+
+
+
+                <com.bit.sfa.utils.CustomText
+                    android:id="@+id/_remrk"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.8"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittextstyle"
+                    android:inputType="textPersonName"
+                    android:padding="5dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:weightSum="1">
+
+                <com.bit.sfa.utils.CustomFont
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="100dp"
+                    android:gravity="left"
+                    android:text="Expense"
+                    android:textSize="18sp"  />
+
+                <com.bit.sfa.utils.CustomText
+                    android:id="@+id/_expcode"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:background="@drawable/edittextstyle"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"/>
+
+                <Button
+                    android:id="@+id/reason_search"
+                    android:layout_weight="0.1"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/search_button" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:weightSum="1">
+
+                <com.bit.sfa.utils.CustomFont
+                    android:layout_width="0dp"
+                    android:layout_weight="0.2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="100dp"
+                    android:gravity="left"
+                    android:text="Amount"
+                    android:textSize="18sp"  />
+
+
+
+                <com.bit.sfa.utils.CustomText
+                    android:id="@+id/_amount"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.8"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittextstyle"
+                    android:inputType="textPersonName"
+                    android:padding="5dp"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical|center_horizontal">
+
+                <Button
+                    android:id="@+id/btn_add"
+                    android:theme="@style/AppTheme.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="ADD" />
+
+            </TableRow>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <com.bit.sfa.utils.CustomizeFont
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dip"
+                    android:layout_marginRight="1dip"
+                    android:layout_weight="2"
+                    android:background="@drawable/custom_label"
+                    android:gravity="center"
+                    android:text="EXPENSE"
+                    android:textColor="@color/unselected"
+                    android:textSize="@dimen/font_size_intermed"
+                    />
+
+                <com.bit.sfa.utils.CustomizeFont
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1dip"
+                    android:layout_marginRight="1dip"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_label"
+                    android:gravity="center"
+                    android:text="AMOUNT"
+                    android:textColor="@color/unselected"
+                    android:textSize="@dimen/font_size_intermed"
+                    />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lv_loading_sum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@color/list_view_diveder"
+                android:dividerHeight="1dp"
+                android:layout_gravity="center_horizontal"
+                />
+        </LinearLayout>
+    </ScrollView>
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/fab_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        fab:fab_shadowColor="#1976"
+        fab:fab_showShadow="true"
+        fab:menu_backgroundColor="#1976"
+        fab:menu_fab_label=""
+        fab:menu_icon="@android:drawable/ic_input_add"
+        fab:menu_labels_colorNormal="#1565c0"
+        fab:menu_labels_colorPressed="#1565c0"
+        fab:menu_labels_colorRipple="#2962ff"
+        fab:menu_labels_ellipsize="end"
+        fab:menu_labels_maxLines="-1"
+        fab:menu_labels_position="left"
+        fab:menu_labels_showShadow="true"
+        fab:menu_labels_singleLine="true"
+        fab:menu_openDirection="up">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_save"
+            android:background="#2962ff"
+            fab:fab_label="Save"
+            fab:fab_size="mini" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_set_as"
+            fab:fab_label="Pause"
+            fab:fab_size="mini"
+            android:visibility="gone"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#2962ff"
+            android:src="@android:drawable/ic_menu_delete"
+            fab:fab_label="Discard"
+            fab:fab_size="mini" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+</RelativeLayout>
